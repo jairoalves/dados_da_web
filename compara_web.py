@@ -32,7 +32,7 @@ def esp_vertical(num_linhas):
 def compara_ubs(cidades, verboso = 0):
     # compara os dados das UBS entre as cidades
     
-    print("Cidade             Qtd UBS     Qtd Bairros")
+    print("Cidade             No. UBS     Qtd Bairros")
     print("--------------    ---------    -----------")
     for cidade in cidades:
         params = dict(
